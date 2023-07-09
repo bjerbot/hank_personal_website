@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+body nav {
+  background-color: white;
+  position: sticky;
+  top: 0px;
+  z-index: 5;
+}
+body nav div.Container {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+body nav div.Container a {
+  font-weight: bold;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+body nav div.Container a:hover {
+  color: rgb(122, 162, 247);
+}
+body nav div.Container ul {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: 0;
+  margin-left: auto;
+}
+body nav div.Container ul li {
+  list-style-type: none;
+  margin: 1rem;
+}
+body nav div.Container ul li a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.1s ease;
+  font-size: 1.3rem;
+}
+body nav div.Container ul li a:hover {
+  color: rgb(122, 162, 247);
+}
+body nav div.Container ul li ul.dropdown-menu-c {
+  background-color: white;
+  display: none;
+  position: absolute;
+  border: 1px solid rgba(0, 0, 0, 0.175);
+  border-radius: 1rem;
+  padding: 0;
+  right: -10px;
+  top: 40px;
+}
+body nav div.Container ul li ul.dropdown-menu-c li {
+  margin: 0;
+  padding: 20px 50px;
+  text-align: center;
+  transition: all 0.2s linear;
+}
+body nav div.Container ul li ul.dropdown-menu-c li:hover {
+  transform: scale(1.2);
+  border-radius: 1rem;
+}
+body nav div.Container ul li ul.dropdown-menu-c li a {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+body main section.main_area {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+body main section.main_area div.info {
+  flex-basis: 600px;
+  padding: 2rem;
+}
+body main section.main_area div.info h1 {
+  font-size: 3rem;
+}
+body main section.main_area div.info h3 {
+  font-size: 1.2rem;
+  padding: 2rem 0;
+}
+body main section.main_area div.info a {
+  color: white;
+  background-color: rgb(69, 105, 189);
+  padding: 0.8rem 1rem;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  display: inline-block;
+  margin-top: 2rem;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+body main section.main_area div.info a:hover {
+  transform: scale(1.1);
+}
+body main section.main_area img {
+  flex-basis: 435px;
+  max-width: 450px;
+}
+body main section.skill {
+  background-color: rgb(122, 162, 247);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body main section.skill h3 {
+  font-weight: bold;
+}
+body main section.skill div.introduce {
+  width: 65%;
+  text-align: left;
+}
+body main section.skill div.introduce p {
+  font-size: 1.1rem;
+}
+body main section.skill div.progress-area {
+  text-align: left;
+  width: 65%;
+}
+body main section.skill div.progress-area p {
+  margin: 0.5rem 0rem;
+}
+body main section.skill div.progress-area div.progress-bar-area {
+  margin-top: 2rem;
+  width: 600px;
+}
+body main section.resume section.table {
+  padding: 3rem;
+}
+body main section.resume section.table table {
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+}
+body main section.resume section.table table tr {
+  border-bottom: 2px solid gray;
+  border-top: 2px solid gray;
+  transition: all 1s ease;
+}
+body main section.resume section.table table tr:hover {
+  background-color: rgb(122, 162, 247);
+}
+body main section.resume section.table table td {
+  padding: 1rem;
+}
+body main section.resume section.table table td ol {
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 1050px) {
+  body main section.main_area div.info {
+    padding: 1rem;
+  }
+  body main section.skill {
+    padding: 1rem;
+  }
+  body main section.skill div.introduce {
+    width: 95%;
+  }
+  body main section.skill div.progress-area {
+    width: 95%;
+  }
+  body main section.resume section.table {
+    padding: 2rem;
+  }
+  body main section.resume section.table table {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 800px) {
+  body main section.skill div.progress-area div.progress-bar-area {
+    width: 400px;
+  }
+}/*# sourceMappingURL=style.css.map */

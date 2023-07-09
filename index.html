@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/bootstrap.css">
+    <link rel="stylesheet" href="./CSS/bubbles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+    <title>Hank的個人網站</title>
+</head>
+<body>
+    <nav>
+        <div class="Container">
+            <a class="tittle" href="#">Hank的個人網站</a>
+            <ul>
+                <li><a target="_blank" href="https://github.com/bjerbot"><i class="fa-brands fa-github"></i>GitHub</a></li>
+                <li class="nav-item dropdown">
+                    <a
+                    class="dropdown-toggle"
+                    role="button"
+                    >
+                    作品集
+                    </a>
+                    <ul class="dropdown-menu-c">
+                    <li><a class="dropdown-item" target="_blank" href="https://bjerbot.github.io/snake_game/">貪食蛇遊戲</a></li>
+                    <li><a class="dropdown-item" target="_blank"href="https://bjerbot.github.io/score_form/">成績計算表</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div id="background-wrap">
+            <div class="bubble x1"></div>
+            <div class="bubble x2"></div>
+            <div class="bubble x3"></div>
+            <div class="bubble x4"></div>
+            <div class="bubble x5"></div>
+            <div class="bubble x6"></div>
+            <div class="bubble x7"></div>
+            <div class="bubble x8"></div>
+            <div class="bubble x9"></div>
+            <div class="bubble x10"></div>
+        </div>
+    <section class="main_area">
+        <div class="info">
+            <h1>嗨 我是Hank!</h1>
+            <h3>
+                我對程式語言有著濃厚的興趣，目前正朝著轉職成軟體工程師的方向努力，享受著學習的樂趣，
+                所以寫了這個網站把我的作品都放在這裡，如果覺得我不錯，歡迎主動聯繫我
+            </h3>
+        </div>
+        <img class="rounded-circle" src="./images/personal-photo-crop.png" alt="個人照片">
+    </section>
+    <section class="skill">
+       <div class="introduce">
+            <h3>關於我的一些事情</h3>
+            <p>
+                我目前可以使用HTML、CSS、JavaScript，做出網站的使用介面還有小遊戲，
+                在後端方面主要是使用Java跟Spring Boot，去操作資料庫，做CRUD，還有回傳JSON跟前端做溝通。
+            </p>
+            <p>在Android App方面，我會使用基本的UI component，也能操作SQLite資料庫。</p>
+            <h3>未來計畫</h3>
+            <p>
+               在實做技能熟練之後，我打算學習電腦科學的相關知識繼續精進自己。
+            </p>
+        </div>
+
+        <div class="progress-area">
+            <h3>我的主要技能</h3>
+            <div class="progress-bar-area">
+                <p>Java</p>
+                <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 85%"></div>
+                </div>
+                <p>Android</p>
+                <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" style="width: 70%"></div>
+                </div>
+                <p>Spring Boot</p>
+                <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width: 75%"></div>
+                </div>
+                <p>HTML</p>
+                <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 65%"></div>
+                </div>
+                <p>CSS</p>
+                <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style="width: 65%"></div>
+                </div>
+                <p>javascript</p>
+                <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" style="width: 75%"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="resume">
+        <section class="table">
+            <table>
+                <tr>
+                    <td>學歷</td>
+                    <td>龍華科技大學-電機系</td>
+                </tr>
+                <tr>
+                    <td>經歷</td>
+                    <td>機械工程師</td>
+                </tr>
+                <tr>
+                    <td>專長</td>
+                    <td>機械設計，網頁開發、Android App</td>
+                </tr>
+                <tr>
+                    <td>語言</td>
+                    <td>中文：精通　、　英文：略懂</td>
+                </tr>
+            </table>
+        </section>
+    </section>
+   </main>
+   <script src="https://kit.fontawesome.com/a99ca61909.js" crossorigin="anonymous"></script>
+   <script src="./js/bootstrap.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.0/umd/popper.min.js" integrity="sha512-PZrlUFhlOigX38TOCMdaYkhiqa/fET/Lztzjn+kdGxefUZanNUfmHv+9M/wSiOHzlcLX/vcCnmvOZSHi5Dqrsw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="./js/app.js"></script>
+</body>
+</html>
